@@ -21,6 +21,12 @@ func main() {
 		fmt.Println("Come back when you're older")
 		return
 	}
+
+	fmt.Printf("What language is this program written in?")
+	var answer string
+	fmt.Scan(&answer)
+
+	fmt.Println(answer)
 		
 }
 
